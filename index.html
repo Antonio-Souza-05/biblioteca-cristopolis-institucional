@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Biblioteca de Cristópolis</title>
+    <title>Biblioteca de Cristópolis | Sistema de Gestão</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -22,7 +22,7 @@
         }
 
         main {
-            max-width: 800px;
+            max-width: 850px;
             margin: 40px auto;
             padding: 0 24px;
         }
@@ -32,6 +32,10 @@
             padding: 28px;
             margin-bottom: 24px;
             border-radius: 12px;
+        }
+
+        h2 {
+            color: #183b56;
         }
 
         a {
@@ -48,7 +52,7 @@
 <body>
     <header>
         <h1>Biblioteca de Cristópolis</h1>
-        <p>Sistema de Gerenciamento de Biblioteca</p>
+        <p>Sistema de Gerenciamento de Acervo e Empréstimos</p>
     </header>
 
     <main>
@@ -56,48 +60,97 @@
             <h2>Sobre o projeto</h2>
             <p>
                 O Sistema de Gerenciamento da Biblioteca de
-                Cristópolis é um projeto acadêmico voltado à
-                organização e ao controle do acervo bibliográfico.
+                Cristópolis é um projeto acadêmico desenvolvido
+                para modernizar os processos administrativos da
+                Biblioteca Pública Municipal Professor Sílvio
+                Alves de Oliveira, localizada em Cristópolis,
+                Bahia.
+            </p>
+            <p>
+                A proposta é substituir controles manuais por
+                uma ferramenta simples, acessível e adequada
+                à rotina da biblioteca.
             </p>
         </section>
 
         <section>
             <h2>Funcionalidades</h2>
+            <ul>
+                <li>Cadastro e consulta de livros e exemplares;</li>
+                <li>Cadastro e gerenciamento de leitores;</li>
+                <li>Registro de empréstimos e devoluções;</li>
+                <li>Controle de prazos e empréstimos em atraso;</li>
+                <li>Reservas de livros e avisos de disponibilidade;</li>
+                <li>Busca por nome, CPF, título e ISBN;</li>
+                <li>Consulta de histórico e geração de relatórios em PDF.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Tecnologias utilizadas</h2>
             <p>
-                O sistema contempla o gerenciamento de livros,
-                leitores, empréstimos, devoluções e reservas,
-                além de recursos de consulta e relatórios.
+                O sistema foi desenvolvido com Python, Flask,
+                Jinja, HTML, CSS, JavaScript e SQLite.
+                A biblioteca pywebview permite sua execução
+                em uma janela de aplicativo no computador.
+            </p>
+            <p>
+                As funcionalidades principais foram projetadas
+                para operar localmente, sem conexão constante
+                com a internet.
             </p>
         </section>
 
         <section>
             <h2>Backup no Google Drive</h2>
             <p>
-                O sistema utiliza uma integração com o Google
-                Drive para armazenar cópias de segurança do
-                banco de dados, mediante autorização da conta
-                Google responsável pelos backups.
+                O projeto possui uma integração em desenvolvimento
+                com a API do Google Drive para armazenar cópias
+                de segurança do banco de dados.
             </p>
             <p>
-                Essa integração é destinada ao uso administrativo
-                e não exige que os leitores conectem suas
-                contas Google.
+                Já foram realizados testes de criação, envio,
+                download e verificação de integridade dos backups.
+                A automação periódica e a criptografia dos arquivos
+                ainda estão em desenvolvimento.
+            </p>
+            <p>
+                A integração utiliza uma conta Google autorizada
+                para os backups administrativos e não exige
+                acesso às contas Google dos leitores.
             </p>
         </section>
 
         <section>
-            <h2>Privacidade</h2>
+            <h2>Situação do projeto</h2>
             <p>
-                Consulte nossa
+                O sistema encontra-se em desenvolvimento e
+                aperfeiçoamento acadêmico. Os testes e as
+                demonstrações utilizam dados fictícios.
+                A implantação definitiva depende de validação
+                e das medidas de segurança necessárias.
+            </p>
+        </section>
+
+        <section>
+            <h2>Privacidade e contato</h2>
+            <p>
+                Consulte a
                 <a href="privacidade.html">Política de Privacidade</a>
-                para obter informações sobre o tratamento
-                dos dados e a integração com o Google Drive.
+                para conhecer as informações sobre tratamento
+                de dados e integração com o Google Drive.
+            </p>
+            <p>
+                Contato do projeto:
+                <a href="mailto:biblioteca.cristopolis26@gmail.com">
+                    biblioteca.cristopolis26@gmail.com
+                </a>
             </p>
         </section>
     </main>
 
     <footer>
-        Projeto acadêmico — Biblioteca de Cristópolis
+        Projeto acadêmico — Biblioteca de Cristópolis, BA
     </footer>
 </body>
 </html>
